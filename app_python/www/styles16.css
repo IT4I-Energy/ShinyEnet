@@ -1,0 +1,156 @@
+.nav-link {
+    --bs-nav-link-color: #A28E2A;
+    --bs-nav-link-hover-color: #7C6D1F;
+    --bs-nav-pills-link-active-bg: #A28E2A;
+}
+
+.accordion .accordion-button:not(.collapsed):focus {
+    box-shadow: 0 0 0 0.25rem rgba(0, 177, 164, 0.25);
+}
+
+.accordion-button:focus {
+    border-color: #00A499;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(0, 177, 164, 0.25);
+}
+
+.irs.irs--shiny {
+    margin-top: 4px;
+}
+
+.irs--shiny .irs-bar--single {
+    background: #00A499;
+}
+
+.irs--shiny .irs-single {
+    background-color: #00A499;
+}
+
+.irs--shiny .irs-handle {
+    background-color: #00A499;
+}
+
+.irs--shiny .irs-handle:hover {
+    background:  #00A499;
+}
+
+.irs.irs--shiny .irs-handle:focus-visible, .irs.irs--shiny .irs-handle:active {
+    color: #017c74;
+    background-color: #017c74;
+    border-color: #017c74;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(0, 177, 164, 0.25);
+}
+
+.form-check-input:checked,
+.shiny-input-container .checkbox input:checked,
+.shiny-input-container .checkbox-inline input:checked,
+.shiny-input-container .radio input:checked,
+.shiny-input-container .radio-inline input:checked {
+    background-color: #00A499;
+    border-color: #00A499;
+}
+
+.form-check-input:focus,
+.shiny-input-container .checkbox input:focus,
+.shiny-input-container .checkbox-inline input:focus,
+.shiny-input-container .radio input:focus, .shiny-input-container .radio-inline input:focus {
+    border-color: #017c74;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(0, 177, 164, 0.25);
+}
+
+.form-select:focus {
+    border-color: #017c74;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(0, 177, 164, 0.25);
+}
+
+.shiny-input-container>div>select:not(.selectized) {
+    width: 100%;
+}
+
+.progress-bar {
+    background-color: #00A499;
+}
+
+.bslib-sidebar-layout>.sidebar {
+  position: sticky;
+  overflow-y: scroll;
+  max-height: 100vh;
+  top:0;
+}
+
+.form-group {
+    margin-bottom: 0.5rem;
+}
+
+/*
+.btn {
+    border-color: transparent;
+    --bs-btn-font-weight: 550;
+    --bs-btn-font-size: 1rem;
+    --bs-btn-padding-x: 0em;
+    --bs-btn-padding-y: .5em;
+}
+
+.btn-outline-default,
+.btn-default:not(.btn-primary,.btn-secondary,.btn-info,.btn-success,.btn-danger,.btn-warning,
+.btn-light,.btn-dark,.btn-link,[class*="btn-outline-"]) {
+    --bs-btn-active-bg: #00a4991a;
+    --bs-btn-hover-bg: #00a4991a;
+    --bs-btn-active-border-color: transparent;
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-active-color: transparent;
+    --bs-btn-hover-color: #404040;
+}
+*/
+
+hr {
+    margin: 1rem;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+.bslib-value-box .value-box-area {
+    justify-content: center;
+    padding: 0rem 0rem;
+    font-size: .6rem;
+    font-weight: 400;
+}
+
+.bslib-value-box .value-box-value {
+    font-size: 1.5rem;
+    margin-bottom: 0rem
+}
+
+.well {
+    border-radius: 0px;
+    --bs-card-border-color: transparent;
+}
+
+.crosshair {
+    cursor: pointer;
+}
+
+.shiny-data-grid > table > thead > tr > th {
+    white-space: nowrap;
+}
+
+.accordion {
+    --bs-accordion-btn-padding-y: 0.6rem;
+}
+
+.popover{
+    --bs-popover-max-width:700px;
+/*    --bs-popover-bg:#e5f5f4;*/
+}
+
+.form-switch .form-check-input:focus {
+    --bs-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280,0,0,0.25%29'/%3e%3c/svg%3e")
+}
+
+.form-control:focus {
+    border-color: #017c74;
+    box-shadow: 0 0 0 0.25rem rgba(0, 177, 164, 0.25);
+}
